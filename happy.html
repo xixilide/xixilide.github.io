@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="./src/css/swiper-3.3.1.min.css">
+  <link rel="stylesheet" href="./src/css/inline.css">
+  <link rel="stylesheet" href="./src/css/animate.css">
+    <script src="./src/js/jquery-1.10.1.min.js"></script>
+</head>
+<body>
+<script src="./js/swiper-3.3.1.min.js"></script>
+<script src="/dist/bundle.js"></script>
+<div class="swiper-container">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide"><img src="./src/img/1.jpg" alt="" width="300" height="300"/></div>
+    <div class="swiper-slide"><img src="./src/img/2.jpg" alt="" width="300" height="300"/></div>
+    <div class="swiper-slide"><img src="./src/img/3.jpg" alt="" width="300" height="300"/></div>
+    <div class="swiper-slide"><img src="./src/img/4.jpg" alt="" width="300" height="300"/></div>
+    <div class="swiper-slide"><img src="./src/img/z6.jpg" alt="" width="300" height="300"/></div>
+    <div class="swiper-slide"><img src="./src/img/z7.jpg" alt="" width="300" height="300"/></div>
+    <div class="swiper-slide"><img src="./src/img/z5.jpg" alt="" width="300" height="300"/></div>
+    <div class="swiper-slide"><img src="./src/img/s10.jpg" alt="" width="300" height="300"/></div>
+    <div class="swiper-slide"><img src="./src/img/12.jpg" alt="" width="300" height="300"/></div>
+  </div>
+
+</div>
+
+<div class="text">
+  <img src="./src/img/sr.jpg" alt="" />
+  <p class="wen"> 这是你在学校的最后一个生日，所以想给你一个特别的礼物，想在网上定制的东西都没能满意，
+    所以想亲手做一个网页给你，无论什么时候都不会丢失的礼物！你是我最好的朋友，一直都是。
+    我想串联起所有四年与你在一起的回忆。毕业不会是我们的终点，我们会陪伴彼此很久的，
+    我想见证你的婚礼，你的幸福，认识你的小孩，以后老了可以一起去旅游，一起聚会，无论发生什么事，你都要记得我都会在，
+    除了你亲人外，我愿成为你最信赖的人，如果有什么委屈和难过都要告诉我，尽管我不够细心，也不爱表达，但我一定是最希望你
+    幸福的人。生日快乐，愿你永远十八岁，永远年轻美丽，单纯没烦恼。            ---to 小闫
+  </p>
+</div>
+<div class="container1">
+  <div class="swiper-container1">
+          <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="./src/img/qq1.jpg" alt="" /></div>
+              <div class="swiper-slide"><img src="./src/img/qq2.jpg" alt="" /></div>
+              <div class="swiper-slide"><img src="./src/img/qq3.jpg" alt="" /></div>
+              <div class="swiper-slide"><img src="./src/img/zzz.jpg" alt="" /></div>
+              <div class="swiper-slide"><img src="./src/img/qq5.jpg" alt="" /></div>
+            </div>
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="./src/img/qq6.jpg" alt="" /></div>
+              <div class="swiper-slide"><img src="./src/img/qq7.jpg" alt="" /></div>
+              <div class="swiper-slide"><img src="./src/img/qq8.jpg" alt="" /></div>
+              <div class="swiper-slide"><img src="./src/img/qq9.jpg" alt="" /></div>
+              <div class="swiper-slide"><img src="./src/img/qq4.jpg" alt="" /></div>
+          </div>
+          <!-- Add Pagination -->
+          <div class="swiper-scrollbar"></div>
+      </div>
+    </div>
+    <div class="main">
+      <h2 class="font animated bounce">我们一起走过的地方</h2>
+  		<div class=" box box1">
+  			<img width="100%" src="./src/img/q1.jpg" alt="">
+  		</div>
+  		<div class=" box box2">
+  			<img width="100%" src="./src/img/q2.jpg" alt="">
+  		</div>
+  		<div class=" box box3">
+  			<img width="100%" src="./src/img/q3.jpg" alt="">
+  		</div>
+  		<div class=" box box4">
+  			<img width="100%" src="./src/img/a6.jpg" alt="" width="120px" height="110px">
+  		</div>
+  		<div class=" box box5">
+  			<img width="100%" src="./src/img/a2.jpg" alt="">
+  		</div>
+  		<div class=" box box6">
+  			<img width="100%" src="./src/img/z8.jpg" alt="">
+  		</div>
+  		<div class=" box box7">
+  			<img width="100%" src="./src/img/a3.jpg" alt="">
+  		</div>
+  	</div>
+<script>
+
+window.onload=function(){
+  var mySwiper = new Swiper('.swiper-container', {
+  	 autoplay: 1000,//可选选项，自动滑动
+    autoplayDisableOnInteraction : false,
+    // initialSlide :2,
+    // speed:300,//滑动速度
+    // parallax : true,
+    effect : 'coverflow',
+    slidesPerView : 3,
+    slidesPerGroup : 3,//定义slides的数量多少为一组。
+
+  })
+  var swiper1 = new Swiper('.swiper-container１', {
+    autoplay: 1000,
+    autoplayDisableOnInteraction : false,
+    effect : 'coverflow',
+    slidesPerView : 3,
+    slidesPerGroup : 3,//定义slides的数量多少为一组。
+   });
+}
+
+</script>
+
+</body>
+</html>
